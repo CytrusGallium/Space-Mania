@@ -9,5 +9,17 @@ A Quote from the original creator :
 ## Change Log
 - Unity project and directory renamed to "Space Mania".
 - Fixed typo errors in class and asset names.
+- New main menu screen.
+- Shield ability when pressing E.
+- Shield meter.
+- Ship health level is now persistent between levels.
+- Ship health bar is now a Singleton.
+- Music stops when ship gets destroyed.
 
-
+- Fixed : Over healing.
+- Fixed : Camera Null ref exception when ship is destroyed.
+- Fixed : Follower missiles Null ref exception when ship is destroyed.
+- Fixed : Ship movement when ship is destroyed.
+- Fixed : Sometimes, Ship is not destroyed when health falls below zero.
+- Fixed : Level 5 boss unbeatable when playing on windows build.
+- Fixed : Health bars not visible on all screen sizes.
